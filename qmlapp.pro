@@ -7,9 +7,8 @@ TARGET = QmlApp
 INCLUDEPATH += .
 QT += qml quick sensors
 QTPLUGIN += qtsensors_ios
-CONFIG += debug
 
-#QMAKE_INFO_PLIST = Info.Plist
+QMAKE_INFO_PLIST = Info.Plist
 
 # Input
 SOURCES += main.cpp
